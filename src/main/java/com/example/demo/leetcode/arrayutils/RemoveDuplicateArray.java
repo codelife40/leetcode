@@ -23,6 +23,8 @@ public class RemoveDuplicateArray {
     }
 
     public static void main(String[] args) {
+
+        
         int len = removeDuplicates(new int[]{1,1,1,2,2,3});
         System.out.println(len);
     }
