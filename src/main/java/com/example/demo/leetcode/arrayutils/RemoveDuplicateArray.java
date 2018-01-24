@@ -17,6 +17,8 @@ public class RemoveDuplicateArray {
                     newLength++;
                 }
             }
+        } else if (nums !=null) {
+
         }
         System.out.println(StringUtils.join(nums,';'));
         return newLength;
@@ -27,5 +29,11 @@ public class RemoveDuplicateArray {
         
         int len = removeDuplicates(new int[]{1,1,1,2,2,3});
         System.out.println(len);
+
+
     }
+
+
 }
+
+
