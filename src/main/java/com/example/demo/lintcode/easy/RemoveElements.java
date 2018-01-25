@@ -31,6 +31,26 @@ public class RemoveElements {
         }
     }
 
+    /**
+     * 获取链表的节点数
+     * @param head
+     * @return
+     */
+    public static int countNodes(ListNode head) {
+        // write your code here
+
+        int len = 0;
+        if (head != null) {
+            len++;
+
+            while(head.next != null) {
+                len++;
+                head = head.next;
+            }
+        }
+        return len;
+    }
+
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         ListNode l2 = new ListNode(2);
