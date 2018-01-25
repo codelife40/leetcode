@@ -62,3 +62,30 @@ It doesn't matter what you leave beyond the new length.
 最后用了for循环。
 
 代码：lintcode/easy/FibonacciArray.java
+
+### 2018.1.25
+-
+题目：来自LintCode
+删除链表中等于给定值val的所有节点。
+
+样例：
+
+给出链表 1->2->3->3->4->5->3, 和 val = 3, 你需要返回删除3之后的链表：1->2->4->5。
+
+分析：主要还是考察ListNode的基础知识
+
+- 循环链表，当前节点的val值如果等于传进来的值，就将当前节点的next指向到下一个节点。
+
+解题：
+RemoveElements.java  这套题先预留着。还没有完全理解。代码是网上搜的，验证通过。
+
+题目：矩阵面积
+实现一个矩阵类Rectangle，包含如下的一些成员变量与函数：
+
+两个共有的成员变量 width 和 height 分别代表宽度和高度。
+一个构造函数，接受2个参数 width 和 height 来设定矩阵的宽度和高度。
+一个成员函数 getArea，返回这个矩阵的面积。
+
+分析: 这道题很简单，主要是考察一个实体类的创建。
+代码：Rectangle.java
+
